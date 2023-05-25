@@ -1,0 +1,17 @@
+/* Define custom variables */
+:root {
+    --Background1Color: rgb(188, 230, 230);
+    --NavFooterColor: rgb(51, 62, 62);
+    --TextColor: rgb(55, 77, 117);
+    --redColor: rgba(84, 6, 6, 0.881);
+    --whiteText:rgb(246, 246, 246);
+    /* none | h-offset (X) v-offset (Y) blur spread color |inset|initial|inherit*/
+    --mainBoxShadow: .3vw .3vw 1vw rgba(109, 78, 88, 30);
+}
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
